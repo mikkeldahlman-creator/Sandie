@@ -1,13 +1,15 @@
+/* General body styling */
 body {
     background-color: aliceblue;
 }
 
+/* Styling for the logo */
 #logo {
 width: 50px;
 height: 30px;
 }
 
-
+/* Flexbox container for the top section (header) */
 .topcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +18,7 @@ height: 30px;
     justify-content: center;
 }
 
+/* Flexbox container for the middle section (main content) */
 .midcontainer {
     margin-top: 100px;
     display: flex;
@@ -25,6 +28,7 @@ height: 30px;
     justify-content: center;
 }
 
+/* Flexbox container for the footer section */
 .footer {
     margin-top: 100px;
     display: flex;
